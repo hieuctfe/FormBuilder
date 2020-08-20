@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "cropperjs": "^1.5.7",
+    "draggabilly": "^2.3.0",
     "formiojs": "^4.10.4",
     "vue": "^2.6.11"
   },
