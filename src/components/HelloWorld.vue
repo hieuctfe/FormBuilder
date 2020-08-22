@@ -95,9 +95,11 @@ export default {
     this.formBuilder();
   },
   methods: {
-    test() {},
     jsonToForm() {
       this.tab = "form";
+
+      document.getElementsByClassName("formio-dialog")[0].innerHTML = "";
+
       this.$nextTick(() => {
         this.form = Formio.createForm(
           document.getElementById("form"),
