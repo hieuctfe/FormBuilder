@@ -124,9 +124,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-#builder {
-  /* width: 50%; */
-  /* float: left; */
+<style>
+.modal-open {
+  overflow: scroll !important;
 }
 </style>
